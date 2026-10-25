@@ -1,0 +1,120 @@
+{
+  "shop_name": "Mrittika Clay Works",
+  "tagline": "Hand-thrown terracotta from Bishnupur, fired in a wood kiln and finished with a slip that only gets better with dishwater.",
+  "owner": "Ishani Ghosh",
+  "co_owner": "Amarnath Seth",
+  "location": "Bandhu village, near the Madan Mohan temple, Bishnupur, Bankura district, West Bengal 722122",
+  "established": 2019,
+  "currency": "INR",
+  "email": "orders@mrittikaclay.in",
+  "phone": "+91 97338 61240",
+  "instagram": "instagram.com/mrittikaclay",
+  "website": "mrittikaclay.in",
+  "kiln_note": "Two firings a month, 1140 degrees Celsius, wood-fired. Colour variation between pieces is the point, not a defect.",
+  "shipping_policy": "Orders leave the studio within 4 working days; made-to-order pieces take 12 to 18 days. We ship across India free above ₹3,000, and ₹180 flat below that. Delhi, Mumbai, Pune, Kolkata and Bengaluru arrive in 3 to 5 days by surface courier; the north-east and Jammu & Kashmir take up to 11. Every piece is wrapped in newsprint, then in jute scraps, then suspended inside a corrugated carton moulded around it — in 2025 we broke 9 items out of 2,740 shipped. International orders go to the UK, UAE, Singapore and Australia by DHL at actual cost, quoted before payment; customs duty is the buyer's.",
+  "returns_policy": "14 days from delivery on in-stock pieces, unwashed and unused, returned in the original carton at our cost — we send a pickup label, nothing comes out of your pocket. Broken on arrival counts as a replacement, not a return: photograph the carton and the piece within 48 hours and we re-dispatch. Made-to-order sizes, custom glaze colours and sale items are final. Gift cards are non-refundable. If you simply changed your mind about the colour, tell us honestly and we will still refund the piece minus ₹150 handling.",
+  "products": [
+    {
+      "name": "Bishnupur Terracotta Water Jug, 1.6 L",
+      "price": 1450,
+      "material": "Red terracotta with unglazed interior, slip exterior",
+      "description": "The jug that started the studio. Water cools as it seeps through the wall, so it drops four to five degrees by evening without electricity. Hand-thrown on a wheel turned by a foot treadle, fired twice. Season it with boiled rice water for three days before first use.",
+      "stock": 26
+    },
+    {
+      "name": "Deep Dish for Dal, Set of Four, 16 cm",
+      "price": 2100,
+      "material": "Terracotta, matte red slip",
+      "description": "Bowls heavy enough not to slide on a steel plate, with a rim that suits tearing a piece of luchi with one hand. Sold as a set because four always sells and two always leaves odd stock. Safe on a gas flame with a diffuser.",
+      "stock": 11
+    },
+    {
+      "name": "Wood-fired Serving Platter, Round, 30 cm",
+      "price": 2650,
+      "material": "Stoneware-blend clay, ash slip",
+      "description": "Flame marks land where the logs fell, so no two platters match. I use this one myself for sliced onion and fried fish. Weighs 1.9 kg, which is the honest price of a platter that will outlive you.",
+      "stock": 7
+    },
+    {
+      "name": "Kulu Kulu Tea Cup, Pair",
+      "price": 980,
+      "material": "Terracotta, no glaze",
+      "description": "Small handleless cups, 110 ml, the shape your grandmother's kitchen used for the first brew of the day. Tea leaves a tan ring inside within a fortnight; do not scrub it out, that ring is the seasoning.",
+      "stock": 34
+    },
+    {
+      "name": "Narrow Neck Oil Jar, 500 ml",
+      "price": 1250,
+      "material": "Terracotta with a food-safe clear interior glaze",
+      "description": "Made for mustard oil, which attacks unglazed clay over time. The pour spout is deliberately slow; you will learn patience or you will buy a second jar for the sink cupboard.",
+      "stock": 19
+    },
+    {
+      "name": "Planter with Drainage & Saucer, 20 cm",
+      "price": 1600,
+      "material": "Porous red terracotta",
+      "description": "For money plants, ferns and any basil you keep killing. Hole punched and saucer included, unglazed outside so the walls breathe. Frost-tolerant to minus two degrees, which matters precisely not at all in India.",
+      "stock": 41
+    },
+    {
+      "name": "Bankura Horse, Sculpted, 24 cm",
+      "price": 4200,
+      "material": "Terracotta, hand-modelled, no wheel",
+      "description": "The district's own craft, made by Amarnath from a single coil, horse and rider as one piece. This is art, not tableware: hollow, light, and never meant to hold water. 3 to 6 sold each month, so expect a wait.",
+      "stock": 4
+    },
+    {
+      "name": "Breakfast Set: Plate, Bowl, Mug",
+      "price": 2450,
+      "material": "Terracotta, iron-oxide brown slip, glazed interior",
+      "description": "Our most-gifted item, boxed in jute with a care card. Microwave safe, dishwasher safe on a short cycle, oven safe to 200 degrees. The mug holds 300 ml of adri chai without needing a coaster.",
+      "stock": 15
+    },
+    {
+      "name": "Cooking Handi with Lid, 2.5 L",
+      "price": 3400,
+      "material": "Unglazed fire-clay blend, sand-finished base",
+      "description": "For dum biryani, rajma on a Sunday and anything that needs three hours of low heat. Goes straight onto a charcoal burner or a gas diffuser. The lid knob gets hot enough to blister skin, so a cloth is not optional.",
+      "stock": 6
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does unglazed terracotta change the taste of water?",
+      "a": "Yes, in the good direction — a faint mineral note, closer to a clay pot than a filter. If you have ever disliked the flat taste of a steel dispenser, this will register immediately. Boil the first three fillings and discard them."
+    },
+    {
+      "q": "Can I wash it with soap?",
+      "a": "Unglazed pieces: no soap, hot water and a rough sponge, then dry in the sun for an hour. Glazed interiors are fine with a drop of dish soap. Soap sits in porous clay and leaches into your next dal."
+    },
+    {
+      "q": "Will it crack in winter or in an AC room?",
+      "a": "Thermal shock is the killer, not cold. Never take a jug from an AC room onto a flame, and never put boiling water into an unseasoned pot. Warm it first with a litre of tap water and a minute of rest."
+    },
+    {
+      "q": "Do you take bulk orders for restaurants and gift corporate sets?",
+      "a": "We do 60 to 400 pieces with a four to six week lead time and a consistent glaze lot. Five pieces minimum of each item, since kiln colour varies. Write to orders@mrittikaclay.in with quantities and the delivery month."
+    },
+    {
+      "q": "Can I visit and watch a firing?",
+      "a": "Saturdays, 09:00 to 14:00, no entry fee, tea is on us. Firings run through the night and we open the kiln at roughly 06:40, twice a month on the dates posted on Instagram. Bring closed shoes; the yard is ash and brick."
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Meghna Banerjee, Kolkata",
+      "rating": 5,
+      "text": "Ordered the jug in March 2026 after eleven years of a refrigerator dispenser. The water is genuinely cooler and the packing was almost absurd — a moulded carton, newsprint, jute. My one note: I wish the care card had said how long to season it, because I guessed."
+    },
+    {
+      "author": "Sandeep Verma, Gurugram",
+      "rating": 4,
+      "text": "Breakfast set has been through a hundred dishwasher cycles and looks better now than when it arrived. Bought a second set for my parents. Knocked a star because my first delivery took nine days against the quoted five, and the courier left it at the gate in the rain."
+    },
+    {
+      "author": "Alice Ferrow, Bristol, UK",
+      "rating": 5,
+      "text": "I commissioned the Bankura horse for my hallway and it survived a DHL journey across nine time zones intact. Ishani sent three photographs before dispatch so I could pick the one whose face I liked, which is the sort of service I did not expect for a ₹4,200 parcel."
+    }
+  ]
+}

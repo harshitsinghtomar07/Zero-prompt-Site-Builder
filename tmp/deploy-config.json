@@ -1,0 +1,32 @@
+{
+  "app_name": "birdnest",
+  "build_time": "2026-10-24T09:14:22.183Z",
+  "git_commit": "a3f9c21e88b40d5f6a1b2c3d4e5f60718293a4b5",
+  "api_base_url": "https://api.birdnest.io/v2",
+  "cdn_host": "cdn.birdnest.io",
+  "environment": "production",
+  "version": "5.2.0",
+  "feature_flags": {
+    "new_checkout": true,
+    "dark_mode": true,
+    "referral_program": false
+  },
+  "build": {
+    "out_dir": "./dist/client",
+    "target": "es2020",
+    "minify": true,
+    "sourcemap": false,
+    "chunk_size_limit_kb": 240
+  },
+  "deploy": {
+    "platform": "vercel",
+    "region": "bom1",
+    "replicas": 4,
+    "healthcheck_path": "/healthz"
+  },
+  "logging": {
+    "level": "info",
+    "retention_days": 30
+  },
+  "notification_email": "ops@birdnest.io"
+}

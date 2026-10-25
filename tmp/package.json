@@ -1,0 +1,44 @@
+{
+  "name": "leafwise",
+  "version": "2.4.1",
+  "description": "A privacy-first plant care companion that learns watering schedules from your local weather station and nudges you only when the soil actually needs it.",
+  "keywords": ["plants", "gardening", "watering", "iot", "privacy"],
+  "homepage": "https://leafwise.app",
+  "bugs": {
+    "url": "https://github.com/leafwise/leafwise/issues"
+  },
+  "license": "MIT",
+  "author": "Rohini Salvi <rohini@leafwise.app> (https://rohini.dev)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "leafwise": "bin/cli.js"
+  },
+  "files": ["dist", "bin", "README.md"],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && tsc --emitDeclarationOnly",
+    "test": "vitest run --coverage",
+    "lint": "eslint . --max-warnings 0",
+    "prepublishOnly": "pnpm run build && pnpm run test"
+  },
+  "dependencies": {
+    "@leafwise/sensor-sdk": "^3.1.0",
+    "next": "15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "private": false,
+  "sideEffects": false,
+  "browserslist": ["> 0.5%", "last 2 versions", "not dead"]
+}

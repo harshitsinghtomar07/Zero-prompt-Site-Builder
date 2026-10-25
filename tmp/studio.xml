@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<business>
+  <name>Riverstone Physiotherapy</name>
+  <about>Hands-on physiotherapy and sports rehab clinic in Koramangala, run by Dr. Anjali Rao.</about>
+  <services>
+    <service>
+      <title>Consultation and assessment</title>
+      <detail>45 minutes, movement screening and a written plan.</detail>
+      <fee>Rs. 900</fee>
+    </service>
+    <service>
+      <title>Deep tissue session</title>
+      <detail>One hour, targeted release work for athletes.</detail>
+      <fee>Rs. 1,400</fee>
+    </service>
+    <service>
+      <title>Home visit</title>
+      <detail>Within 8 km of the clinic, mornings only.</detail>
+      <fee>Rs. 1,800</fee>
+    </service>
+  </services>
+  <hours>Monday to Saturday, 9 am to 7 pm</hours>
+  <phone>+91 80 4123 7788</phone>
+</business>

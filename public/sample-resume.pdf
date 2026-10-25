@@ -1,0 +1,106 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3836 >>
+stream
+BT /F1 10 Tf 48 780 Td (AADRI MEHTA) Tj ET
+BT /F1 10 Tf 48 766 Td (Senior Backend Engineer | Payments & Reliability) Tj ET
+BT /F1 10 Tf 48 752 Td (Bengaluru, India) Tj ET
+BT /F1 10 Tf 48 738 Td (aadri.mehta@example.com | github.com/aadri-mehta | linkedin.com/in/aadri-mehta | aadri.dev) Tj ET
+BT /F1 10 Tf 48 724 Td () Tj ET
+BT /F1 10 Tf 48 710 Td (SUMMARY) Tj ET
+BT /F1 10 Tf 48 696 Td (Backend engineer with 8 years building payment and ledger systems that stay correct under load.) Tj ET
+BT /F1 10 Tf 48 682 Td (Leads a team of six engineers at a fintech processing about INR 4,000 crore a month. Comfortable owning) Tj ET
+BT /F1 10 Tf 48 668 Td (a system from the SQL query to the on-call rota, and happiest making money movement boring.) Tj ET
+BT /F1 10 Tf 48 654 Td () Tj ET
+BT /F1 10 Tf 48 640 Td (EXPERIENCE) Tj ET
+BT /F1 10 Tf 48 626 Td (Senior Backend Engineer, Paynest Technologies | Bengaluru) Tj ET
+BT /F1 10 Tf 48 612 Td (Mar 2021 - Present) Tj ET
+BT /F1 10 Tf 48 598 Td (- Rebuilt the settlement pipeline on Kafka and Go, cutting end-of-day reconciliation failures from 34% to 2%) Tj ET
+BT /F1 10 Tf 48 584 Td (- Led migration of 60 services from a shared Postgres cluster to partitioned per-tenant stores with zero downtime) Tj ET
+BT /F1 10 Tf 48 570 Td (- Introduced idempotency keys across the payments API; duplicate charge tickets dropped 4,100 per year to 11) Tj ET
+BT /F1 10 Tf 48 556 Td (- Mentored five engineers, three of whom were promoted within eighteen months) Tj ET
+BT /F1 10 Tf 48 542 Td (Technologies: Go, Kafka, PostgreSQL, Kubernetes, Terraform, OpenTelemetry) Tj ET
+BT /F1 10 Tf 48 528 Td () Tj ET
+BT /F1 10 Tf 48 514 Td (Backend Engineer, Kite Commerce | Pune) Tj ET
+BT /F1 10 Tf 48 500 Td (Jul 2018 - Feb 2021) Tj ET
+BT /F1 10 Tf 48 486 Td (- Owned the checkout and inventory services handling 120k requests per minute at peak) Tj ET
+BT /F1 10 Tf 48 472 Td (- Cut p99 checkout latency from 1.4s to 380ms by profiling query plans and adding read replicas) Tj ET
+BT /F1 10 Tf 48 458 Td (- Built the fraud-rule engine used by the risk team, blocking INR 62 crore in suspicious orders in year one) Tj ET
+BT /F1 10 Tf 48 444 Td (Technologies: Java, Spring Boot, MySQL, Redis) Tj ET
+BT /F1 10 Tf 48 430 Td () Tj ET
+BT /F1 10 Tf 48 416 Td (Software Engineer, Nimbus Labs) Tj ET
+BT /F1 10 Tf 48 402 Td (Jun 2016 - Jun 2018) Tj ET
+BT /F1 10 Tf 48 388 Td (- Shipped internal billing tooling that replaced a spreadsheet process costing finance 30 hours a month) Tj ET
+BT /F1 10 Tf 48 374 Td (- Wrote the first automated test suite for the invoicing service, taking release time from two days to three hours) Tj ET
+BT /F1 10 Tf 48 360 Td () Tj ET
+BT /F1 10 Tf 48 346 Td (PROJECTS) Tj ET
+BT /F1 10 Tf 48 332 Td (ledger-check) Tj ET
+BT /F1 10 Tf 48 318 Td (Open-source double-entry verification library in Go; used by four payment teams and 380 stars on GitHub.) Tj ET
+BT /F1 10 Tf 48 304 Td (https://github.com/aadri-mehta/ledger-check) Tj ET
+BT /F1 10 Tf 48 290 Td (Technologies: Go, PostgreSQL) Tj ET
+BT /F1 10 Tf 48 276 Td () Tj ET
+BT /F1 10 Tf 48 262 Td (slowquery) Tj ET
+BT /F1 10 Tf 48 248 Td (A terminal profiler that reads Postgres statement logs and ranks the queries actually costing you time.) Tj ET
+BT /F1 10 Tf 48 234 Td (https://github.com/aadri-mehta/slowquery) Tj ET
+BT /F1 10 Tf 48 220 Td () Tj ET
+BT /F1 10 Tf 48 206 Td (oncall-notes) Tj ET
+BT /F1 10 Tf 48 192 Td (A small web app that turns incident timelines into blameless written reviews for the whole team.) Tj ET
+BT /F1 10 Tf 48 178 Td () Tj ET
+BT /F1 10 Tf 48 164 Td (SKILLS) Tj ET
+BT /F1 10 Tf 48 150 Td (Go, Java, TypeScript, Python, SQL) Tj ET
+BT /F1 10 Tf 48 136 Td (PostgreSQL, MySQL, Redis, Kafka, RabbitMQ, etcd) Tj ET
+BT /F1 10 Tf 48 122 Td (Kubernetes, Docker, Terraform, AWS, GCP, GitHub Actions, Grafana, OpenTelemetry) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1054 >>
+stream
+BT /F1 10 Tf 48 780 Td (Distributed systems, double-entry accounting, idempotency, event sourcing, API design, incident response) Tj ET
+BT /F1 10 Tf 48 766 Td (Leadership, mentoring, technical writing, hiring loops) Tj ET
+BT /F1 10 Tf 48 752 Td () Tj ET
+BT /F1 10 Tf 48 738 Td (EDUCATION) Tj ET
+BT /F1 10 Tf 48 724 Td (B.Tech Computer Science, National Institute of Technology Karnataka, Surathkal) Tj ET
+BT /F1 10 Tf 48 710 Td (2012 - 2016) Tj ET
+BT /F1 10 Tf 48 696 Td (Coursework: operating systems, compilers, databases, computer networks) Tj ET
+BT /F1 10 Tf 48 682 Td () Tj ET
+BT /F1 10 Tf 48 668 Td (CERTIFICATIONS) Tj ET
+BT /F1 10 Tf 48 654 Td (AWS Certified Solutions Architect - Professional, 2023) Tj ET
+BT /F1 10 Tf 48 640 Td () Tj ET
+BT /F1 10 Tf 48 626 Td (LANGUAGES) Tj ET
+BT /F1 10 Tf 48 612 Td (English, Hindi, Kannada) Tj ET
+BT /F1 10 Tf 48 598 Td () Tj ET
+BT /F1 10 Tf 48 584 Td (INTERESTS) Tj ET
+BT /F1 10 Tf 48 570 Td (Trail running, chess, restoring old keyboards, writing about money movement) Tj ET
+BT /F1 10 Tf 48 556 Td () Tj ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000317 00000 n 
+0000004204 00000 n 
+0000004330 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+5435
+%%EOF

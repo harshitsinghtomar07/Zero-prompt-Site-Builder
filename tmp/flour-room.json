@@ -1,0 +1,27 @@
+// Weekly rotation for the bakery counter — exported from the till, excuse the trailing commas.
+{
+  "bakery_name": "The Flour Room",
+  "week_of": "20 October 2026",
+  "bakes": [
+    {
+      "name": "Cardamom Bun",
+      "price": 120,
+      "baked_on": "Tuesday",
+      "note": "Twisted by hand, brushed with syrup while still hot."
+    },
+    {
+      "name": "Sourdough Miche, 1.5kg",
+      "price": 340,
+      "baked_on": "Wednesday and Saturday",
+      "note": "Forty-hour ferment, stone-milled Chandni flour.",
+    },
+    {
+      "name": "Pistachio Croissant",
+      "price": 210,
+      "baked_on": "Friday",
+      "note": "Laminated with Amul butter, filled with Grignan pistachio cream.",
+    },
+  ],
+  "collection_hours": "08:00 to 19:00, closed Mondays",
+  "address": "12 Chapel Lane, Fort Kochi, Kerala 682001",
+}

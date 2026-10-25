@@ -1,0 +1,23 @@
+Course,Dish,Description,Price INR,Veg,Popular
+Starter,Podi Bonda,"Urad dal dumplings rolled in gunpowder and fresh curry leaf, fried to order, served with coconut chutney and a mound of sambar powder",160,Yes,Yes
+Starter,Sadham Vadagam,"Sun-dried rice patty crisps fried in cold-pressed coconut oil, roast green chilli and garlic, a Thanjavur pantry snack",180,Yes,No
+Starter,Kozhi Varuval,"Kerala dry chicken fry with crushed Malabar black pepper, shallots and curry leaf, no gravy, eats well with beer",320,No,Yes
+Starter,Perugu Vada,"Curd-soaked medu vada crumbled by hand with pomegranate, ginger julienne and roasted cumin",190,Yes,No
+Main,Chettinad Naati Kozhi,"Country chicken in a stone-ground fennel and kalpasi paste, slow reduced, curry leaf finish, medium hot",480,No,Yes
+Main,Kadala Masala Kuzhambu,"Black chickpeas simmered overnight in a Karnataka style gravy, toasted coconut, coconut oil float",320,Yes,Yes
+Main,Karimeen Pollichathu,"Whole pearl spot from Mathur, marinated in shallot masala, wrapped in banana leaf and grilled on a tawa",640,No,Yes
+Main,Eru Kuzhambu,"Drumstick and radish in a tamarind and palm jaggery gravy, mustard tempered in sesame oil, Thanjavur recipe",340,Yes,No
+Main,Parotta Kozhi Salna,"Layered parotta torn and pan fried with shredded chicken in a mild rock salt salna, two eggs on request",440,No,Yes
+Main,Kathirikai Vatha Kuzhambu,"Brinjal roasted until it collapses, then cooked with vathal masala, sesame paste and sour tamarind",310,Yes,No
+Main,Mochai Kootu,"Field beans cooked soft with yam, toor dal and a garlic and dried chilli tempering, ghee on top",330,Yes,No
+Tiffin,Ghee Podi Dosa,"Paper thin rice and urad crepe brushed with Nallur ghee and gunpowder, folded twice, sambar on the side",240,Yes,Yes
+Tiffin,Ragi Kothu Parotta,"Finger millet parotta shredded on the tawa with onion, curry leaf, green chilli and two eggs",280,No,Yes
+Tiffin,Pesarattu Upma,"Whole green gram crepe topped with broken wheat upma, molten gunpowder centre, ginger and coriander",210,Yes,No
+Tiffin,Thayir Sadam,"Ponni rice curdled with hanging curd, pomegranate seeds, roasted chana and a curry leaf tempering",200,Yes,No
+Tiffin,Rava Masala Idli,"Semolina idli steamed loose with carrot, green chilli, ginger flowers and a spoon of ghee",180,Yes,No
+Dessert,Jola Payasam,"Thin Kerala rice kheer with cardamom, cashew and raisin fried in ghee, sweetened with jaggery rather than sugar",190,Yes,Yes
+Dessert,Elaneer Palkova,"Reduced tender coconut milk set into a slab, cut thick, served with groundnut brittle",260,Yes,No
+Dessert,Vazhaka Halwa,"Nendran banana cooked down five hours in milk and ghee, cashew studded, handed over warm",220,Yes,No
+Beverage,Filter Kaapi,"Two thirds strong decoction, one third boiled milk, poured twice and served in a steel davara set",140,Yes,Yes
+Beverage,Neer Mor,"Thin buttermilk with green chilli, curry leaf, hing and a spoon of cooked rice",120,Yes,No
+Beverage,Panakam,"Palm jaggery, dry ginger powder, lime and basil seed, chilled overnight in a clay pot",150,Yes,No

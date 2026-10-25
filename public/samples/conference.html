@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SandboxConf Pune 2026 &mdash; Local-first, Offline &amp; Edge</title>
+  <meta name="description" content="A one-day developer conference in Pune on local-first data, SQLite, CRDTs &amp; WASM. Saturday 19 September 2026." />
+  <style>
+    :root {
+      --ink: #16211f;
+      --accent: #0f7b6c;
+      --accent-soft: #e2f2ee;
+      --muted: #6c7a78;
+      --line: #dfe6e4;
+      --bg: #fbfbf9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.62;
+    }
+    header {
+      background: linear-gradient(135deg, #0f2925, #0f7b6c);
+      color: #f4fffb;
+      padding: 56px 24px 64px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 10px; font-size: 2.6rem; letter-spacing: -0.02em; }
+    header p.tagline { margin: 0 auto; max-width: 640px; color: #bfe6dd; font-size: 1.08rem; }
+    .meta { margin-top: 22px; font-size: 0.95rem; color: #9fd6c9; }
+    main { max-width: 940px; margin: -28px auto 0; padding: 0 24px 72px; }
+    section {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 26px 28px;
+      margin-bottom: 26px;
+    }
+    h2 { margin-top: 0; font-size: 1.4rem; color: var(--accent); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+    th { background: var(--accent-soft); }
+    .speaker { border-left: 4px solid var(--accent); padding-left: 16px; margin-bottom: 20px; }
+    .speaker .role { color: var(--muted); font-size: 0.9rem; }
+    .tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; }
+    .tier { border: 1px solid var(--line); border-radius: 10px; padding: 16px; background: #fafcfb; }
+    .tier .price { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+    .faq-q { font-weight: 600; cursor: pointer; }
+    .faq-a { display: none; margin: 6px 0 16px; color: var(--muted); }
+    .faq-a.open { display: block; }
+    .sponsors li { list-style: none; }
+    ul.sponsors { padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .countdown { font-variant-numeric: tabular-nums; font-weight: 700; }
+    footer { text-align: center; color: var(--muted); font-size: 0.88rem; padding: 24px; }
+    a { color: var(--accent); }
+    code { background: #f1f4f3; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SandboxConf 2026</h1>
+    <p class="tagline">One day in Pune about software that keeps working when the network does not. Local-first data, SQLite at the edge, conflict-free replication &amp; the ugly postmortems behind both.</p>
+    <p class="meta">Saturday 19 September 2026 &middot; 08:30&ndash;18:00 &middot; Symbiosis International, Lavale &middot; <span id="cd" class="countdown">counting down</span></p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>SandboxConf started in 2024 as six people around a table in a Baner co-working space, arguing about whether CRDTs were worth the complexity. The 2026 edition is a single-track, 320-seat day: no keynote theatre, no vendor demos dressed up as talks, and every session recorded and published within eleven days.</p>
+      <p>We are deliberately narrow. If your work touches an embedded database, offline sync, WASM modules, or the operational mess of shipping user data that cannot be lost, this is your room. If you want cloud-native Kubernetes generic content, we happily refund your ticket.</p>
+    </section>
+
+    <section id="agenda">
+      <h2>Agenda</h2>
+      <table>
+        <thead>
+          <tr><th>Time</th><th>Session</th><th>Speaker</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>08:30 &ndash; 09:15</td><td>Registration, badges &amp; filter coffee</td><td>Organising team</td></tr>
+          <tr><td>09:15 &ndash; 10:05</td><td>Keynote &mdash; Ten years of &ldquo;local-first&rdquo;: what shipped, what rotted</td><td>Mythili Ramaswamy</td></tr>
+          <tr><td>10:05 &ndash; 10:50</td><td>Crash-only SQLite on a 2G meter</td><td>Aditya Sawant</td></tr>
+          <tr><td>10:50 &ndash; 11:10</td><td>Break &amp; hallway track</td><td>&mdash;</td></tr>
+          <tr><td>11:10 &ndash; 11:50</td><td>Porting a spreadsheet engine to WebAssembly</td><td>Farida Qazmi</td></tr>
+          <tr><td>11:50 &ndash; 12:35</td><td>Lightning talks (six slots, five minutes each)</td><td>Open mic</td></tr>
+          <tr><td>12:35 &ndash; 13:40</td><td>Lunch, sponsor tables &amp; hardware bench</td><td>&mdash;</td></tr>
+          <tr><td>13:40 &ndash; 15:40</td><td>Hands-on workshop &mdash; build a replicating store in <code>driftwal</code></td><td>Rohit Bansod</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="speakers">
+      <h2>Speakers</h2>
+      <div class="speaker">
+        <p><strong>Mythili Ramaswamy</strong><br />Principal Engineer, BrowserStack, Pune</p>
+        <p class="role">Maintains an offline test-capture agent installed on 40,000 machines. Talks about durability assumptions nobody writes down.</p>
+      </div>
+      <div class="speaker">
+        <p><strong>Aditya Sawant</strong><br />Staff Engineer, Razorpay, Bengaluru</p>
+        <p class="role">Merchant POS sync across 60,000 terminals. Three postmortems in forty minutes, including the firmware flag that delayed ₹9 crore in settlements.</p>
+      </div>
+      <div class="speaker">
+        <p><strong>Farida Qazmi</strong><br />Developer Relations, Zoho Corporation, Chennai</p>
+        <p class="role">Led the WASM extraction of a sheet-calculation engine; writes the weekly <em>Bytecode Diaries</em> newsletter.</p>
+      </div>
+      <div class="speaker">
+        <p><strong>Kalyani Devane</strong><br />Site Reliability Lead, Truecaller, Bengaluru</p>
+        <p class="role">Runs replication for a contact graph with 380 million users; will argue that your conflict resolver is a product decision, not an algorithm.</p>
+      </div>
+      <div class="speaker">
+        <p><strong>Rohit Bansod</strong><br />Independent, Nagpur</p>
+        <p class="role">Author of the open-source append log <code>driftwal</code>. Workshop lead. github.com/rohitbansod/driftwal</p>
+      </div>
+    </section>
+
+    <section id="venue">
+      <h2>Venue &amp; travel</h2>
+      <p><strong>Symbiosis International (Deemed University), Lavale, Mulshi, Pune 411057.</strong> Doors at the Academic Block 3 auditorium; the workshop runs in Lab 2, same corridor.</p>
+      <p>Pune Junction is 13 km away &mdash; PMPML route 115 stops at the gate, and an auto is about ₹150 off-peak. Ramwadi metro station (Line 1) is 6.4 km; expect a 15-minute shared ride. Pune Airport is 41 km and the Mumbai&ndash;Pune road at 08:00 will not make you faster, so come before 08:45. Two hundred parking slots, no pre-booking, ₹100 flat. The campus canteen is vegetarian; we have confirmed a separate non-vegetarian counter for lunch orders placed on the registration form.</p>
+    </section>
+
+    <section id="tickets">
+      <h2>Tickets</h2>
+      <div class="tiers">
+        <div class="tier"><p><strong>Student</strong></p><p class="price">₹700</p><p>College ID proof and a student email address. Includes lunch; no workshop seat.</p></div>
+        <div class="tier"><p><strong>Community</strong></p><p class="price">₹1,800</p><p>Sliding band. Workshops included, one session reserved for speakers&rsquo; Q&amp;A.</p></div>
+        <div class="tier"><p><strong>Professional</strong></p><p class="price">₹4,500</p><p>Workshop seat, recordings, invoice with GSTIN, reserved front rows.</p></div>
+        <div class="tier"><p><strong>Team of five</strong></p><p class="price">₹18,000</p><p>Five professional passes plus one sponsored lightning-talk slot.</p></div>
+      </div>
+      <p>112 of 320 seats remain. Every ticket price includes GST; we do not charge for the recordings.</p>
+    </section>
+
+    <section id="faq">
+      <h2>Frequently asked</h2>
+      <p class="faq-q" data-faq>Is there a code of conduct?</p>
+      <p class="faq-a">Yes, and it is enforced. Two warnings at the 2024 event, one removal. Reported to the organiser desk or by SMS to +91 98226 11004.</p>
+      <p class="faq-q" data-faq>Will talks be recorded?</p>
+      <p class="faq-a">All stage sessions, published under CC BY-SA within eleven days. The workshop is not recorded because people ask questions with their faces.</p>
+      <p class="faq-q" data-faq>Can I expense this to my employer?</p>
+      <p class="faq-a">Professional tickets carry a GST invoice with our CIN. Write to billing@sandboxconf.dev with your GSTIN before 5 September and we will re-issue.</p>
+      <p class="faq-q" data-faq>I have a disability &mdash; is the venue accessible?</p>
+      <p class="faq-a">Ramp access at the Academic Block 3 entrance, two accessible washrooms on the ground floor, and reserved wheelchair rows. Say so on the form and our access lead, Nithya, will call you within two working days &mdash; she doesn&rsquo;t take no for an answer about lift timings.</p>
+      <p class="faq-q" data-faq>Refunds?</p>
+      <p class="faq-a">Full refund till 31 August, 50 percent till 12 September, transferable to another person at any point, no questions.</p>
+    </section>
+
+    <section id="sponsors">
+      <h2>Partners &amp; sponsors</h2>
+      <ul class="sponsors">
+        <li><strong>Gold:</strong> Tanay Cloud Labs &mdash; managed Postgres &amp; SQLite replication</li>
+        <li><strong>Silver:</strong> Bytecraft Systems, Pune &mdash; embedded device bring-up</li>
+        <li><strong>Silver:</strong> Kitefall Studio &mdash; developer tooling &amp; design</li>
+        <li><strong>Coffee:</strong> Sahyadri Roasters, Chikmagalur &mdash; single-origin filter, donated per bag</li>
+        <li><strong>Community:</strong> PuneJS, FOSS Pune, Lavale Makerspace</li>
+      </ul>
+      <p>Sponsor slots are text-only logos on this page, one banner on the stage backdrop, and a table at lunch. No lanyard ads, no email list sales. Decks: sponsor@sandboxconf.dev.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Programme questions: hello@sandboxconf.dev. Speaker proposals close 12 July 2026 &mdash; a 200-word abstract is enough, linkedin.com/in/sandboxconf for updates.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>SandboxConf is a not-for-profit volunteer event. Batch 2026 &copy; sandboxconf.dev &middot; instagram.com/sandboxconf</p>
+  </footer>
+
+  <script>
+    (function () {
+      // Countdown to doors open.
+      var target = new Date("2026-09-19T08:30:00+05:30").getTime();
+      var out = document.getElementById("cd");
+      function tick() {
+        var diff = target - Date.now();
+        if (diff <= 0) { out.textContent = "doors are open"; return; }
+        var days = Math.floor(diff / 86400000);
+        var hrs = Math.floor((diff % 86400000) / 3600000);
+        var mins = Math.floor((diff % 3600000) / 60000);
+        out.textContent = days + "d " + hrs + "h " + mins + "m to doors";
+      }
+      tick();
+      setInterval(tick, 60000);
+
+      // Minimal FAQ toggle: no framework, no build step.
+      var questions = document.querySelectorAll("[data-faq]");
+      for (var i = 0; i < questions.length; i++) {
+        questions[i].addEventListener("click", function () {
+          var answer = this.nextElementSibling;
+          answer.classList.toggle("open");
+          this.style.color = answer.classList.contains("open") ? "#0f7b6c" : "";
+        });
+      }
+
+      // Ticket seats left, kept in sync with the registration service.
+      var seats = 112;
+      document.querySelectorAll(".tier p.price").forEach(function (node) {
+        node.setAttribute("title", seats + " seats remaining across all bands");
+      });
+    })();
+  </script>
+</body>
+</html>

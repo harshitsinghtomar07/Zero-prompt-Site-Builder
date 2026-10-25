@@ -1,0 +1,13 @@
+name: Amber Bakehouse
+about: Small-batch sourdough and viennoiserie, baked every morning in Indiranagar.
+menu:
+  - item: Country Sourdough Loaf
+    price: Rs. 320
+  - item: Butter Croissant
+    price: Rs. 120
+  - item: Almond Danish
+    price: Rs. 150
+  - item: Banana Walnut Cake
+    price: Rs. 220
+hours: Open Tuesday to Sunday, 8 am to 7 pm
+phone: "+91 98450 11223"

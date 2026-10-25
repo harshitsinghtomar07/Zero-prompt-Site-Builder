@@ -1,0 +1,64 @@
+AADRI MEHTA
+Senior Backend Engineer | Payments & Reliability
+Bengaluru, India
+aadri.mehta@example.com | github.com/aadri-mehta | linkedin.com/in/aadri-mehta | aadri.dev
+
+SUMMARY
+Backend engineer with 8 years building payment and ledger systems that stay correct under load.
+Leads a team of six engineers at a fintech processing about INR 4,000 crore a month. Comfortable owning
+a system from the SQL query to the on-call rota, and happiest making money movement boring.
+
+EXPERIENCE
+Senior Backend Engineer, Paynest Technologies | Bengaluru
+Mar 2021 - Present
+- Rebuilt the settlement pipeline on Kafka and Go, cutting end-of-day reconciliation failures from 34% to 2%
+- Led migration of 60 services from a shared Postgres cluster to partitioned per-tenant stores with zero downtime
+- Introduced idempotency keys across the payments API; duplicate charge tickets dropped 4,100 per year to 11
+- Mentored five engineers, three of whom were promoted within eighteen months
+Technologies: Go, Kafka, PostgreSQL, Kubernetes, Terraform, OpenTelemetry
+
+Backend Engineer, Kite Commerce | Pune
+Jul 2018 - Feb 2021
+- Owned the checkout and inventory services handling 120k requests per minute at peak
+- Cut p99 checkout latency from 1.4s to 380ms by profiling query plans and adding read replicas
+- Built the fraud-rule engine used by the risk team, blocking INR 62 crore in suspicious orders in year one
+Technologies: Java, Spring Boot, MySQL, Redis
+
+Software Engineer, Nimbus Labs
+Jun 2016 - Jun 2018
+- Shipped internal billing tooling that replaced a spreadsheet process costing finance 30 hours a month
+- Wrote the first automated test suite for the invoicing service, taking release time from two days to three hours
+
+PROJECTS
+ledger-check
+Open-source double-entry verification library in Go; used by four payment teams and 380 stars on GitHub.
+https://github.com/aadri-mehta/ledger-check
+Technologies: Go, PostgreSQL
+
+slowquery
+A terminal profiler that reads Postgres statement logs and ranks the queries actually costing you time.
+https://github.com/aadri-mehta/slowquery
+
+oncall-notes
+A small web app that turns incident timelines into blameless written reviews for the whole team.
+
+SKILLS
+Go, Java, TypeScript, Python, SQL
+PostgreSQL, MySQL, Redis, Kafka, RabbitMQ, etcd
+Kubernetes, Docker, Terraform, AWS, GCP, GitHub Actions, Grafana, OpenTelemetry
+Distributed systems, double-entry accounting, idempotency, event sourcing, API design, incident response
+Leadership, mentoring, technical writing, hiring loops
+
+EDUCATION
+B.Tech Computer Science, National Institute of Technology Karnataka, Surathkal
+2012 - 2016
+Coursework: operating systems, compilers, databases, computer networks
+
+CERTIFICATIONS
+AWS Certified Solutions Architect - Professional, 2023
+
+LANGUAGES
+English, Hindi, Kannada
+
+INTERESTS
+Trail running, chess, restoring old keyboards, writing about money movement
